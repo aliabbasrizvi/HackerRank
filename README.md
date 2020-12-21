@@ -12,6 +12,7 @@ Solutions to problems on HackerRank. Profile: https://www.hackerrank.com/aliabba
 - left_rotation.py: https://www.hackerrank.com/challenges/ctci-array-left-rotation
 
 #### Dictionaries and Hashmaps
+- ransom_note.py: https://www.hackerrank.com/challenges/ctci-ransom-note
 - (incomplete) two_string.py: https://www.hackerrank.com/challenges/two-strings
 
 #### Sorting
@@ -32,12 +33,19 @@ Solutions to problems on HackerRank. Profile: https://www.hackerrank.com/aliabba
 - balanced_brackets.py: https://www.hackerrank.com/challenges/balanced-brackets
 
 #### Graphs
+- (not started) roads_and_libraries.py: https://www.hackerrank.com/challenges/torque-and-development
 
 #### Trees
-- (incomplete) height_of_tree.py: https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree
+- height_of_tree.py: https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree
+- huffman_decoding.py: https://www.hackerrank.com/challenges/tree-huffman-decoding
+- is_bst.py: https://www.hackerrank.com/challenges/is-binary-search-tree
+- level_order_traversal.py: https://www.hackerrank.com/challenges/tree-level-order-traversal 
 
 #### Linked Lists
 
 #### Recursion and Backtracking
+- davis_staircase.py: https://www.hackerrank.com/challenges/ctci-recursive-staircase
+- fibonacci_numbers.py: https://www.hackerrank.com/challenges/ctci-fibonacci-numbers
+- recursive_digit_sum.py: https://www.hackerrank.com/challenges/recursive-digit-sum
 
 #### Miscellaneous

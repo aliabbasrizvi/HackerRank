@@ -36,29 +36,33 @@ class BinarySearchTree:
           break
 
 
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-'''
-class Node:
-      def __init__(self,info): 
-          self.info = info  
-          self.left = None  
-          self.right = None 
+"""
+Node is defined as
+self.left (the left child of the node)
+self.right (the right child of the node)
+self.info (the value of the node)
+"""
+
+def set_level_order(processed, order):
+  if len(processed) == 0:
+    return
+  node = processed.pop(0)
+  order.append(str(node.info))
+
+  if node.left:
+    processed.append(node.left)
+
+  if node.right:
+    processed.append(node.right)
+
+  set_level_order(processed, order)
 
 
-       // this is a node of the tree , which contains info as data, left , right
-'''
+def levelOrder(root):
+  processed = []
+  if root:
+    processed.append(root)
 
-def height(root):
-  left_height = 0
-  right_height = 0
-
-  if root is None:
-    return 0
-
-  if root.left:
-    left_height = 1 + height(root.left)
-
-  if root.right:
-    right_height = 1 + height(root.right)
-
-  return max(left_height, right_height)
+  order = []
+  set_level_order(processed, order)
+  print(' '.join(order))
